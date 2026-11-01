@@ -116,7 +116,7 @@
   </div>
 
   <script>
-    // Complete & Detailed NCTB Database with official links
+    // Complete & Detailed NCTB Database with all school and madrasah books
     const nctbData = {
       "primary": {
         title: "প্রাথমিক স্তর",
@@ -133,82 +133,121 @@
           {
             "pre_primary": { classLabel: "প্রাক-প্রাথমিক", books: [
               { name: "আমার বই", pdf: "https://nctb.portal.gov.bd/sites/default/files/files/nctb.portal.gov.bd/page/695b9b7c_c477_4958_d7b7_0a12/Amar_Boi_Pre-Primary.pdf", download: "https://nctb.portal.gov.bd/sites/default/files/files/nctb.portal.gov.bd/page/695b9b7c_c477_4958_d7b7_0a12/Amar_Boi_Pre-Primary.pdf" },
-              { name: "এসো লিখতে শিখি", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "এসো লিখতে শিখি", pdf: "#", download: "#" }
             ]},
             "primary_school": { classLabel: "১ম শ্রেণি", books: [
-              { name: "আমার বাংলা বই", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আমার বাংলা বই", pdf: "https://drive.google.com/drive/u/0/folders/1Uf6Bvm2pZiLluxzJ0OwAzgZRm-1DfNaW", download: "https://drive.usercontent.google.com/download?id=1hf-W5GVlAy3cHstFlozNBuE2oz7u9YXy&export=download&authuser=0" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "প্রাথমিক গণিত", pdf: "#", download: "#" }
             ]},
             "ebtedai": { classLabel: "১ম শ্রেণি", books: [
-              { name: "আল কুরআন ও তাজবীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "বাংলা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" }
             ]},
             "small_ethnic": { classLabel: "প্রাক-প্রাথমিক", books: [
-              { name: "মারমা ভাষা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "চাকমা ভাষা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "মারমা ভাষা", pdf: "#", download: "#" },
+              { name: "চাকমা ভাষা", pdf: "#", download: "#" },
+              { name: "ত্রিপুরা ভাষা", pdf: "#", download: "#" },
+              { name: "গারো ভাষা", pdf: "#", download: "#" },
+              { name: "সাদরি ভাষা", pdf: "#", download: "#" }
             ]}
           },
           {
             "pre_primary": null,
             "primary_school": { classLabel: "২য় শ্রেণি", books: [
-              { name: "আমার বাংলা বই", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আমার বাংলা বই", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "প্রাথমিক গণিত", pdf: "#", download: "#" }
             ]},
             "ebtedai": { classLabel: "২য় শ্রেণি", books: [
-              { name: "আল কুরআন ও তাজবীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "আকাঈদ ও ফিকাহ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "বাংলা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকাহ", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" }
             ]},
             "small_ethnic": { classLabel: "১ম শ্রেণি", books: [
-              { name: "মারমা ভাষা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "মারমা ভাষা", pdf: "#", download: "#" },
+              { name: "চাকমা ভাষা", pdf: "#", download: "#" },
+              { name: "ত্রিপুরা ভাষা", pdf: "#", download: "#" },
+              { name: "গারো ভাষা", pdf: "#", download: "#" }
             ]}
           },
           {
             "pre_primary": null,
             "primary_school": { classLabel: "৩য় শ্রেণি", books: [
-              { name: "আমার বাংলা বই", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক বিজ্ঞান", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "ধর্ম ও নৈতিক শিক্ষা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আমার বাংলা বই", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "প্রাথমিক গণিত", pdf: "#", download: "#" },
+              { name: "প্রাথমিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "ধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" }
             ]},
             "ebtedai": { classLabel: "৩য় শ্রেণি", books: [
-              { name: "আল কুরআন মাজীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "আকাঈদ ও ফিকাহ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকাহ", pdf: "#", download: "#" },
+              { name: "عربي (আরবি)", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান", pdf: "#", download: "#" }
             ]},
             "small_ethnic": { classLabel: "২য় শ্রেণি", books: [
-              { name: "গারো ভাষা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "মারমা ভাষা", pdf: "#", download: "#" },
+              { name: "চাকমা ভাষা", pdf: "#", download: "#" },
+              { name: "ত্রিপুরা ভাষা", pdf: "#", download: "#" },
+              { name: "গারো ভাষা", pdf: "#", download: "#" }
             ]}
           },
           {
             "pre_primary": null,
             "primary_school": { classLabel: "৪র্থ শ্রেণি", books: [
-              { name: "আমার বাংলা বই", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক বিজ্ঞান", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আমার বাংলা বই", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "প্রাথমিক গণিত", pdf: "#", download: "#" },
+              { name: "প্রাথমিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "ধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" }
             ]},
             "ebtedai": { classLabel: "৪র্থ শ্রেণি", books: [
-              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকাহ", pdf: "#", download: "#" },
+              { name: "عربي (আরবি)", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান", pdf: "#", download: "#" }
             ]},
             "small_ethnic": { classLabel: "৩য় শ্রেণি", books: [
-              { name: "ত্রিপুরা ভাষা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "মারমা ভাষা", pdf: "#", download: "#" },
+              { name: "চাকমা ভাষা", pdf: "#", download: "#" },
+              { name: "ত্রিপুরা ভাষা", pdf: "#", download: "#" },
+              { name: "গারো ভাষা", pdf: "#", download: "#" }
             ]}
           },
           {
             "pre_primary": null,
             "primary_school": { classLabel: "৫ম শ্রেণি", books: [
-              { name: "আমার বাংলা বই", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "প্রাথমিক গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আমার বাংলা বই", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "প্রাথমিক গণিত", pdf: "#", download: "#" },
+              { name: "প্রাথমিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "ধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" }
             ]},
             "ebtedai": { classLabel: "৫ম শ্রেণি", books: [
-              { name: "আল কুরআন মাজীদ ও উলূমুল কুরআন", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ ও উলূমুল কুরআন", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকাহ", pdf: "#", download: "#" },
+              { name: "عربي (আরবি)", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান", pdf: "#", download: "#" }
             ]},
             "small_ethnic": null
           }
@@ -227,59 +266,159 @@
         rows: [
           {
             "sec_school": { classLabel: "৬ষ্ঠ শ্রেণি", books: [
-              { name: "বাংলা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "বিজ্ঞান (অনুসন্ধানী পাঠ)", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (অনুসন্ধানী পাঠ)", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (বইটি পড়ি বিষয়টি বুঝি)", pdf: "#", download: "#" },
+              { name: "ইতিহাস ও সামাজিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "ডিজিটাল প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "জীবন ও জীবিকা", pdf: "#", download: "#" },
+              { name: "ইসলাম ধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "হিন্দুধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "বৌদ্ধধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "খ্রিস্টধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "স্বাস্থ্য সুরক্ষা", pdf: "#", download: "#" },
+              { name: "শিল্প ও সংস্কৃতি", pdf: "#", download: "#" }
             ]},
             "dakhil": { classLabel: "৬ষ্ঠ শ্রেণি", books: [
-              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "আকাঈদ ও ফিকহ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "আল লুগাতুল আরাবিয়্যাহ আল ইত্তিসালিয়া", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকহ", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (অনুসন্ধানী পাঠ)", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (বইটি পড়ি বিষয়টি বুঝি)", pdf: "#", download: "#" },
+              { name: "ইতিহাস ও সামাজিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "ডিজিটাল প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "জীবন ও জীবিকা", pdf: "#", download: "#" },
+              { name: "স্বাস্থ্য সুরক্ষা", pdf: "#", download: "#" },
+              { name: "শিল্প ও সংস্কৃতি", pdf: "#", download: "#" }
             ]},
             "vocational": { classLabel: "৬ষ্ঠ শ্রেণি (ট্রেড)", books: [
-              { name: "জেনারেল ইলেকট্রিক্যাল ওয়ার্কস", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "জেনারেল ইলেকট্রিক্যাল ওয়ার্কস", pdf: "#", download: "#" },
+              { name: "জেনারেল মেকানিক্স", pdf: "#", download: "#" },
+              { name: "কম্পিউটার ও ইনফরমেশন টেকনোলজি", pdf: "#", download: "#" }
             ]}
           },
           {
             "sec_school": { classLabel: "৭ম শ্রেণি", books: [
-              { name: "বাংলা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English for Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (অনুসন্ধানী পাঠ)", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (বইটি পড়ি বিষয়টি বুঝি)", pdf: "#", download: "#" },
+              { name: "ইতিহাস ও সামাজিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "ডিজিটাল প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "জীবন ও জীবিকা", pdf: "#", download: "#" },
+              { name: "ইসলাম ধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "হিন্দুধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "বৌদ্ধধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "খ্রিস্টধর্ম শিক্ষা", pdf: "#", download: "#" },
+              { name: "স্বাস্থ্য সুরক্ষা", pdf: "#", download: "#" },
+              { name: "শিল্প ও সংস্কৃতি", pdf: "#", download: "#" }
             ]},
             "dakhil": { classLabel: "৭ম শ্রেণি", books: [
-              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "আল লুগাতুল আরাবিয়্যাহ", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকহ", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (অনুসন্ধানী পাঠ)", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান (বইটি পড়ি বিষয়টি বুঝি)", pdf: "#", download: "#" },
+              { name: "ইতিহাস ও সামাজিক বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "ডিজিটাল প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "জীবন ও জীবিকা", pdf: "#", download: "#" },
+              { name: "স্বাস্থ্য সুরক্ষা", pdf: "#", download: "#" },
+              { name: "শিল্প ও সংস্কৃতি", pdf: "#", download: "#" }
             ]},
             "vocational": { classLabel: "৭ম শ্রেণি (ট্রেড)", books: [
-              { name: "কম্পিউটার ও ইনফরমেশন টেকনোলজি", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "জেনারেল ইলেকট্রিক্যাল ওয়ার্কস", pdf: "#", download: "#" },
+              { name: "কম্পিউটার ও ইনফরমেশন টেকনোলজি", pdf: "#", download: "#" }
             ]}
           },
           {
             "sec_school": { classLabel: "৮ম শ্রেণি", books: [
-              { name: "বাংলা", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "বিজ্ঞান", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "তথ্য ও যোগাযোগ প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "ইসলাম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "হিন্দুধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "বৌদ্ধধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "খ্রিস্টধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "কৃষি শিক্ষা", pdf: "#", download: "#" },
+              { name: "গার্হস্থ্য বিজ্ঞান", pdf: "#", download: "#" }
             ]},
             "dakhil": { classLabel: "৮ম শ্রেণি", books: [
-              { name: "আল লুগাতুল আরাবিয়্যাহ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "আল লুগাতুল আরাবিয়্যাহ", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকহ", pdf: "#", download: "#" },
+              { name: "বাংলা", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "তথ্য ও যোগাযোগ প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "কৃষি শিক্ষা", pdf: "#", download: "#" }
             ]},
             "vocational": { classLabel: "৮ম শ্রেণি (ট্রেড)", books: [
-              { name: "ট্রেড কোর্স", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "ট্রেড কোর্স (ভোকেশনাল)", pdf: "#", download: "#" }
             ]}
           },
           {
             "sec_school": { classLabel: "৯ম-১০ম শ্রেণি", books: [
-              { name: "বাংলা সাহিত্য (সপ্তবর্ণা / সাহিত্য পাঠ)", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English For Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "গণিত", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "পদার্থবিজ্ঞান", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "রসায়ন", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "বাংলা সাহিত্য (সপ্তবর্ণা / সাহিত্য পাঠ)", pdf: "#", download: "#" },
+              { name: "বাংলা ব্যাকরণ ও নির্মিতি", pdf: "#", download: "#" },
+              { name: "English For Today", pdf: "#", download: "#" },
+              { name: "English Grammar and Composition", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "উচ্চতর গণিত", pdf: "#", download: "#" },
+              { name: "পদার্থবিজ্ঞান", pdf: "#", download: "#" },
+              { name: "রসায়ন", pdf: "#", download: "#" },
+              { name: "জীববিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা", pdf: "#", download: "#" },
+              { name: "পৌরনীতি ও নাগরিকতা", pdf: "#", download: "#" },
+              { name: "ভূগোল ও পরিবেশ", pdf: "#", download: "#" },
+              { name: "অর্থনীতি", pdf: "#", download: "#" },
+              { name: "হিসাববিজ্ঞান", pdf: "#", download: "#" },
+              { name: "ব্যবসায় উদ্যোগ", pdf: "#", download: "#" },
+              { name: "ফিন্যান্স ও ব্যাংকিং", pdf: "#", download: "#" },
+              { name: "তথ্য ও যোগাযোগ প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "কৃষি শিক্ষা", pdf: "#", download: "#" },
+              { name: "গার্হস্থ্য বিজ্ঞান", pdf: "#", download: "#" },
+              { name: "চারু ও কারুকলা", pdf: "#", download: "#" },
+              { name: "শারীরিক শিক্ষা, স্বাস্থ্য ও খেলাধুলা", pdf: "#", download: "#" },
+              { name: "ইসলাম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "হিন্দুধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "বৌদ্ধধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" },
+              { name: "খ্রিস্টধর্ম ও নৈতিক শিক্ষা", pdf: "#", download: "#" }
             ]},
             "dakhil": { classLabel: "৯ম-১০ম শ্রেণি", books: [
-              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "আল হাদীস শরীফ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ ও তাজবীদ", pdf: "#", download: "#" },
+              { name: "আল হাদীস শরীফ", pdf: "#", download: "#" },
+              { name: "আকাঈদ ও ফিকহ", pdf: "#", download: "#" },
+              { name: "তাফসীরুল কুরআন", pdf: "#", download: "#" },
+              { name: "বাংলা সাহিত্য", pdf: "#", download: "#" },
+              { name: "বাংলা ব্যাকরণ ও নির্মিতি", pdf: "#", download: "#" },
+              { name: "English for Today", pdf: "#", download: "#" },
+              { name: "English Grammar and Composition", pdf: "#", download: "#" },
+              { name: "গণিত", pdf: "#", download: "#" },
+              { name: "উচ্চতর গণিত", pdf: "#", download: "#" },
+              { name: "পদার্থবিজ্ঞান", pdf: "#", download: "#" },
+              { name: "রসায়ন", pdf: "#", download: "#" },
+              { name: "জীববিজ্ঞান", pdf: "#", download: "#" },
+              { name: "বাংলাদেশ ও বিশ্বপরিচয়", pdf: "#", download: "#" },
+              { name: "তথ্য ও যোগাযোগ প্রযুক্তি", pdf: "#", download: "#" }
             ]},
             "vocational": { classLabel: "৯ম-১০ম (ভোকেশনাল)", books: [
-              { name: "ভোকেশনাল ট্রেড", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "ভোকেশনাল ট্রেড প্র্যাকটিক্যাল ও থিওরি", pdf: "#", download: "#" }
             ]}
           }
         ]
@@ -296,13 +435,43 @@
         rows: [
           {
             "college": { classLabel: "একাদশ-দ্বাদশ শ্রেণি", books: [
-              { name: "বাংলা ১ম পত্র (সাহিত্যপাঠ)", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "English For Today", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "তথ্য ও যোগাযোগ প্রযুক্তি (ICT)", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "বাংলা ১ম পত্র (সাহিত্যপাঠ)", pdf: "#", download: "#" },
+              { name: "বাংলা ২য় পত্র (সহপাঠ ও ব্যাকরণ)", pdf: "#", download: "#" },
+              { name: "English For Today (XI-XII)", pdf: "#", download: "#" },
+              { name: "English Grammar and Composition", pdf: "#", download: "#" },
+              { name: "তথ্য ও যোগাযোগ প্রযুক্তি (ICT)", pdf: "#", download: "#" },
+              { name: "পদার্থবিজ্ঞান ১ম পত্র", pdf: "#", download: "#" },
+              { name: "পদার্থবিজ্ঞান ২য় পত্র", pdf: "#", download: "#" },
+              { name: "রসায়ন ১ম পত্র", pdf: "#", download: "#" },
+              { name: "রসায়ন ২য় পত্র", pdf: "#", download: "#" },
+              { name: "উচ্চতর গণিত ১ম পত্র", pdf: "#", download: "#" },
+              { name: "উচ্চতর গণিত ২য় পত্র", pdf: "#", download: "#" },
+              { name: "জীববিজ্ঞান ১ম পত্র", pdf: "#", download: "#" },
+              { name: "জীববিজ্ঞান ২য় পত্র", pdf: "#", download: "#" },
+              { name: "পৌরনীতি ও সুশাসন ১ম পত্র", pdf: "#", download: "#" },
+              { name: "পৌরনীতি ও সুশাসন ২য় পত্র", pdf: "#", download: "#" },
+              { name: "অর্থনীতি ১ম পত্র", pdf: "#", download: "#" },
+              { name: "অর্থনীতি ২য় পত্র", pdf: "#", download: "#" },
+              { name: "যুক্তিবিদ্যা ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "ইসলামের ইতিহাস ও সংস্কৃতি ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "হিসাববিজ্ঞান ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "ব্যবসায় সংগঠন ও ব্যবস্থাপনা ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "ফিন্যান্স, ব্যাংকিং ও বিমা ১ম ও ২য় পত্র", pdf: "#", download: "#" }
             ]},
             "alim": { classLabel: "আলিম ১ম ও ২য় বর্ষ", books: [
-              { name: "আল কুরআন মাজীদ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" },
-              { name: "আল হাদীস শরীফ", pdf: "https://nctb.portal.gov.bd/", download: "https://nctb.portal.gov.bd/" }
+              { name: "আল কুরআন মাজীদ", pdf: "#", download: "#" },
+              { name: "আল হাদীস শরীফ", pdf: "#", download: "#" },
+              { name: "আল ফিকহ আল ইসলামী (১ম ও ২য় পত্র)", pdf: "#", download: "#" },
+              { name: "বালাগাত ওয়াল মানতিক", pdf: "#", download: "#" },
+              { name: "তাফসীরুল কুরআন", pdf: "#", download: "#" },
+              { name: "আল লুগাতুল আরাবিয়্যাহ আল ইত্তিসালিয়া", pdf: "#", download: "#" },
+              { name: "বাংলা ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "English For Today", pdf: "#", download: "#" },
+              { name: "তথ্য ও যোগাযোগ প্রযুক্তি", pdf: "#", download: "#" },
+              { name: "পদার্থবিজ্ঞান ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "রসায়ন ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "গণিত ১ম ও ২য় পত্র", pdf: "#", download: "#" },
+              { name: "জীববিজ্ঞান ১ম ও ২য় পত্র", pdf: "#", download: "#" }
             ]}
           }
         ]
@@ -435,8 +604,8 @@
 
       let html = "";
       booksList.forEach((b, idx) => {
-        const safePdf = b.pdf ? b.pdf : "https://nctb.portal.gov.bd/";
-        const safeDl = b.download ? b.download : "https://nctb.portal.gov.bd/";
+        const safePdf = b.pdf ? b.pdf : "#";
+        const safeDl = b.download ? b.download : "#";
         html += `
           <tr class="hover:bg-slate-50 transition-colors">
             <td class="py-3 font-semibold text-slate-600">${idx + 1}</td>
@@ -475,7 +644,7 @@
       document.getElementById("pdfBookTitle").innerText = `${classLabel} : ${bookName}`;
       
       const frame = document.getElementById("pdfFrame");
-      frame.src = pdfUrl;
+      frame.src = pdfUrl !== "#" ? pdfUrl : "about:blank";
       
       const dlBtn = document.getElementById("pdfDownloadBtn");
       dlBtn.href = downloadUrl;
